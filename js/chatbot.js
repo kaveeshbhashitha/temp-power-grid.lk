@@ -33,7 +33,7 @@ const loadJSON = async (url) => {
 const findResponse = (data, userMessage) => {
     // Simple keyword matching logic (improved)
     const messageLower = userMessage.toLowerCase();
-    let bestMatch = { score: 0, answer: "Sorry, I don't have an answer for that." };
+    let bestMatch = { score: 0, answer: "Sorry, Please contact us for more details." };
 
     for (const entry of data) {
         const questionLower = entry.question.toLowerCase();

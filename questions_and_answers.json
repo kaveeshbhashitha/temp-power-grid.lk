@@ -1,4 +1,5 @@
 [
+    {"question": "Hi", "answer": "Hello"},
     {"question": "What is your name?", "answer": "I am a chatbot."},
     {"question": "What is your name", "answer": "I am a chatbot."},
     {"question": "How are you?", "answer": "I am fine, thank you."},

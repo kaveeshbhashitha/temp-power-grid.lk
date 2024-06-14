@@ -7,9 +7,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background: #E3F2FD;
-}
 .chatbot-toggler {
   position: fixed;
   bottom: 30px;
@@ -192,4 +189,15 @@ header h2 {
   .chatbot header span {
     display: block;
   }
+}
+
+.card-img-top{
+  width: 200px;
+  height: auto;
+}
+.card{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: none;
 }
