@@ -58,7 +58,7 @@ const findResponse = (data, userMessage) => {
 
 const generateResponse = async (chatElement) => {
     const messageElement = chatElement.querySelector("p");
-    const jsonData = await loadJSON('questions_and_answers.json'); // Path to your JSON file
+    const jsonData = await loadJSON('questions_and_answers.json'); 
 
     if (!jsonData) {
         messageElement.classList.add("error");
