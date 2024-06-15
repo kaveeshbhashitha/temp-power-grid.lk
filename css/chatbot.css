@@ -201,3 +201,11 @@ header h2 {
   align-items: center;
   border: none;
 }
+
+.service{
+  color: #192440;
+}
+.contact{
+  height: 30px;
+  width: 30px;
+}
