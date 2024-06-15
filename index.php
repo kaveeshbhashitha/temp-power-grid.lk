@@ -141,45 +141,41 @@
         </div>
     </div>
     <!-- feature (skew background) -->
-    <div class="jumbotron jumbotron-fluid feature" id="feature-first" style="margin-top: -100px;">
-        <div class="container">
-            <div class="row justify-content-between text-center text-md-left">
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 d-flex justify-content-center align-items-center" style="height: 100vh; display: flex; margin-top: 50px;">
-                    <div>
-                        <h2 class="font-weight-bold">Custom Power Solutions</h2>
-                        <ul style="list-style-type: square; padding-left: 0; font-family: Arial, sans-serif; font-size: 16px; margin-left: 30px;" class="my-4">
-                            <li class="text-dark">Custom power electronic designs for all needs.</li>
-                            <li class="text-dark">Solve energy challenges with tailored circuits.</li>
-                            <li class="text-dark">Specializing in off-grid inverter design and repair.</li>
-                            <li class="text-dark">Empower your energy journey with custom power solutions! Say goodbye to energy woes and hello to tailored designs. Let's collaborate for the perfect solution.</li>
-                        </ul>
-                    </div>
+    <div class="container">
+        <div class="row justify-content-between text-center text-md-left">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 d-flex justify-content-center align-items-center" style="height: 100vh; display: flex;">
+                <div>
+                    <h2 class="font-weight-bold">Custom Power Solutions</h2>
+                    <ul style="list-style-type: square; padding-left: 0; font-family: Arial, sans-serif; font-size: 16px; margin-left: 30px;" class="my-4">
+                        <li class="text-dark">Custom power electronic designs for all needs.</li>
+                        <li class="text-dark">Solve energy challenges with tailored circuits.</li>
+                        <li class="text-dark">Specializing in off-grid inverter design and repair.</li>
+                        <li class="text-dark">Empower your energy journey with custom power solutions! Say goodbye to energy woes and hello to tailored designs. Let's collaborate for the perfect solution.</li>
+                    </ul>
                 </div>
-                
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
-                    <img src="img/green-energy.png" alt="Take a look inside" class="mx-auto d-block">
-                </div>
+            </div>
+            
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                <img src="img/green-energy.png" alt="Take a look inside" class="mx-auto d-block">
             </div>
         </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid feature" id="feature-first" style="margin-top: -250px;">
-        <div class="container">
-            <div class="row justify-content-between text-center text-md-left">
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
-                    <img src="img/renewable-energy.png" alt="Take a look inside" class="mx-auto d-block">
-                </div>
+    <div class="container">
+        <div class="row justify-content-between text-center text-md-left">
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                <img src="img/renewable-energy.png" alt="Take a look inside" class="mx-auto d-block">
+            </div>
 
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 d-flex justify-content-center align-items-center" style="height: 100vh; display: flex; margin-top: 50px;">
-                    <div>
-                        <h2 class="font-weight-bold">Safe and Reliable Services</h2>
-                        <ul style="list-style-type: square; padding-left: 0; font-family: Arial, sans-serif; font-size: 16px; margin-left: 30px;" class="my-4">
-                            <li class="text-dark">Trust us for reliable power solutions for your home or business.</li>
-                            <li class="text-dark">Safety is our top priority</li>
-                            <li class="text-dark">Transparent communication, always.</li>
-                            <li class="text-dark">Empowering your energy journey.</li>
-                        </ul>
-                    </div>
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 d-flex justify-content-center align-items-center" style="height: 100vh; display: flex;">
+                <div>
+                    <h2 class="font-weight-bold">Safe and Reliable Services</h2>
+                    <ul style="list-style-type: square; padding-left: 0; font-family: Arial, sans-serif; font-size: 16px; margin-left: 30px;" class="my-4">
+                        <li class="text-dark">Trust us for reliable power solutions for your home or business.</li>
+                        <li class="text-dark">Safety is our top priority</li>
+                        <li class="text-dark">Transparent communication, always.</li>
+                        <li class="text-dark">Empowering your energy journey.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -373,7 +369,7 @@
     </div>
 
     <!-- feature (skew background) -->
-    <div class="container my-3">
+    <div class="container">
         <div class="row justify-content-between text-center text-md-left">
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 p-3">
                 <h2 class="font-weight-bold">Meet Us</h2>
@@ -432,9 +428,6 @@
                         <li>Address : Powergrid Solution, UBLC, <br>University of Moratuwa, Katubadda</li>
                         <li>Web: <a href="http://powergrid.lk/" style="color: #d82653;">Browse us</a></li>
                     </ul>
-                        <a href="https://web.whatsapp.com/send?phone=94712437010&amp;text=" class="float" data-action="open" data-phone="94712437010" data-message="" role="button" tabindex="0" target="_blank">
-                            <i class="fa fa-whatsapp my-float"></i>
-                        </a>
                 </div>
                 <div class="col-md-6">
                     <form action="send_email.php" method="post">
@@ -486,6 +479,11 @@
               <span id="send-btn" class="material-symbols-rounded">send</span>
             </div>
           </div>
+    </div>
+    <div>
+        <a href="https://web.whatsapp.com/send?phone=94712437010&amp;text=" class="float" data-action="open" data-phone="94712437010" data-message="" role="button" tabindex="0" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
     </div>
 
 	<!-- copyright -->
