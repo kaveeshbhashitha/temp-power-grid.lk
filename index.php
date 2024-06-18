@@ -64,7 +64,7 @@
         </div>
     </div>
     <!-- three-blcok -->
-    <div class="container" style="margin-top: 100px;">
+    <!-- <div class="container" style="margin-top: 100px;">
         <h2 class="text-center font-weight-bold mt-5">Domestic On Grid Power Systems</h2>
         <p class="text-center font-weight-bold mb-5">We are providing wide range of power services</p>
         <div class="row">
@@ -139,68 +139,45 @@
             </a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- feature (skew background) -->
-    <div class="container">
-        <div class="row justify-content-between text-center text-md-left">
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 d-flex justify-content-center align-items-center" style="height: 100vh; display: flex;">
-                <div>
-                    <h2 class="font-weight-bold">Custom Power Solutions</h2>
-                    <ul style="list-style-type: square; padding-left: 0; font-family: Arial, sans-serif; font-size: 16px; margin-left: 30px;" class="my-4">
-                        <li class="text-dark">Custom power electronic designs for all needs.</li>
-                        <li class="text-dark">Solve energy challenges with tailored circuits.</li>
-                        <li class="text-dark">Specializing in off-grid inverter design and repair.</li>
-                        <li class="text-dark">Empower your energy journey with custom power solutions! Say goodbye to energy woes and hello to tailored designs. Let's collaborate for the perfect solution.</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
-                <img src="img/green-energy.png" alt="Take a look inside" class="mx-auto d-block">
-            </div>
-        </div>
-    </div>
 
     <div class="container">
         <div class="row justify-content-between text-center text-md-left">
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
-                <img src="img/renewable-energy.png" alt="Take a look inside" class="mx-auto d-block">
+            <div>
+                <img src="img/green-energy.png" alt="Take a look inside">
             </div>
-
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 d-flex justify-content-center align-items-center" style="height: 100vh; display: flex;">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6" style="margin-top: 60px;">
+                <h2 class="font-weight-bold">Custom Power Solutions</h2>
                 <div>
-                    <h2 class="font-weight-bold">Safe and Reliable Services</h2>
-                    <ul style="list-style-type: square; padding-left: 0; font-family: Arial, sans-serif; font-size: 16px; margin-left: 30px;" class="my-4">
-                        <li class="text-dark">Trust us for reliable power solutions for your home or business.</li>
-                        <li class="text-dark">Safety is our top priority</li>
-                        <li class="text-dark">Transparent communication, always.</li>
-                        <li class="text-dark">Empowering your energy journey.</li>
-                    </ul>
+                    <h5>-> Custom power electronic designs for all needs.</h5>
+                    <h5>-> Solve energy challenges with tailored circuits.</h5>
+                    <h5>-> Specializing in off-grid inverter design and repair.</h5>
+                    <h5>-> Empower your energy journey with custom power solutions! Say goodbye to energy woes and hello to tailored designs. Let's collaborate for the perfect solution.</h5>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- price table -->
-    <div class="container py-2" id="price-table" style="margin-top: -100px;">
-        <h2 class="text-center font-weight-bold d-block my-3 underline">Checkout Us</h2>
-        <div class="row">
-            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center mt-5">
-                <img src="img/pgs.png" alt="Free image">
-                <a href="img/pgs.png" class="btn my-4 font-weight-bold atlas-cta cta-ghost">See more</a>
+    <div class="container">
+        <div class="row justify-content-between text-center text-md-left">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6" style="margin-top: 60px;">
+                <h2 class="font-weight-bold">Safe and Reliable Services</h2>
+                <div>
+                    <h5>-> Trust us for reliable power solutions for your home or business.</h5>
+                    <h5>-> Safety is our top priority</h5>
+                    <h5>-> Transparent communication, always.</h5>
+                    <h5>-> Empowering your energy journey.</h5>
+                </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center mt-5 rounded">
-                <img src="img/bma.png" alt="Free image">
-                <a href="img/bma.png" class="btn my-4 font-weight-bold atlas-cta cta-green">See more</a>
-            </div>
-            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center mt-5">
-                <img src="img/eye.png" alt="Free image">
-                <a href="img/eye.png" class="btn my-4 font-weight-bold atlas-cta cta-ghost">See more</a>
+            <div>
+                <img src="img/renewable-energy.png" alt="Take a look inside">
             </div>
         </div>
     </div>
-    <h2 class="text-center font-weight-bold d-block py-2">Our Services</h2>
-    <div class="container py-2" id="price-table">
+    
+    <h2 class="text-center font-weight-bold d-block">Our Services</h2>
+    <div class="container" id="price-table">
         <div class="row mb-4">
             <div class="col-sm-4">
               <div class="card">
@@ -365,6 +342,25 @@
                     </div>
                 </div>
               </div>
+        </div>
+    </div>
+
+    <!-- price table -->
+    <div class="container py-2" id="price-table" style="margin-top: -100px;">
+        <h2 class="text-center font-weight-bold d-block my-3 underline">Checkout Us</h2>
+        <div class="row">
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center mt-5">
+                <img src="img/pgs.png" alt="Free image">
+                <a href="img/pgs.png" class="btn my-4 font-weight-bold atlas-cta cta-ghost">See more</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center mt-5 rounded">
+                <img src="img/bma.png" alt="Free image">
+                <a href="img/bma.png" class="btn my-4 font-weight-bold atlas-cta cta-green">See more</a>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center mt-5">
+                <img src="img/eye.png" alt="Free image">
+                <a href="img/eye.png" class="btn my-4 font-weight-bold atlas-cta cta-ghost">See more</a>
+            </div>
         </div>
     </div>
 
