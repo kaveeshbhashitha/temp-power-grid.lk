@@ -16,14 +16,14 @@ if (isset($_POST["send"])) {
         $mail->isSMTP(); // Send using SMTP
         $mail->Host       = 'smtp.gmail.com'; // Set the SMTP server to send through
         $mail->SMTPAuth   = true; // Enable SMTP authentication
-        $mail->Username   = 'smartgrid.lab.uom@gmail.com'; // Your email address
-        $mail->Password   = 'tnzjjlhdsjruebjk'; // Your email password
+        $mail->Username   = 'powergridsolutionslk@gmail.com'; // Your email address
+        $mail->Password   = 'ugxjdwomcnllebdf'; // Your email password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
         $mail->Port       = 587; // TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         // Recipients
-        $mail->setFrom('smartgrid.lab.uom@gmail.com', $_POST['name']);
-        $mail->addAddress('smartgrid.lab.uom@gmail.com', $_POST['email']);
+        $mail->setFrom('powergridsolutionslk@gmail.com', $_POST['name']);
+        $mail->addAddress('powergridsolutionslk@gmail.com', $_POST['email']);
         
         // Content
         $mail->isHTML(true); // Set email format to HTML
